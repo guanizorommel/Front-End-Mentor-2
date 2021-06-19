@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+/** general layout **/
+section {
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    margin: 5em 10em;
+}
+
+/*typography*/
+
+h1, p, .cta {
+    font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+    color: #ffff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1em 0em;
+}
+
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: hsl(0, 19%, 89%);
+    margin-bottom: 6em;
+}
+
+/**button css*/
+.cta {
+    background-color: #fff;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 175px;
+    text-align: center;
+    padding: .5em 0em;
+}
+
+.cta:hover {
+    background-color:transparent;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+/*button text colors*/
+.left-button-text {
+    color:#e28525;
+    padding: 1em 1.75em;
+}
+
+.left-button-text:hover {
+    color: #fff;
+} 
+
+.middle-button-text {
+    color:#016972;
+    padding: 1em 1.75em;
+}
+
+.middle-button-text:hover {
+    color: #fff;
+} 
+
+
+.right-button-text {
+    color:#00403f;
+    padding: 1em 1.75em;
+}
+
+.right-button-text:hover {
+    color: #fff;
+} 
+
+/**boxes layout**/
+.left-box, .middle-box, .right-box {
+    padding: 3em 3em;
+}
+
+.left-box {
+    background-color: #e28525;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+}
+
+.middle-box {
+    background-color: #016972;
+}
+
+.right-box {
+    background-color: #00403f;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*content css*/
+
+.left-content, .middle-content, .right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
